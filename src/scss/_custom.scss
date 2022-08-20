@@ -1,0 +1,34 @@
+// * Colores
+$negro: #000;
+$blanco: #fff;
+$morado: #A435F0;
+$gris: #F8F9FB;
+$gris-oscuro: #6A6F73;
+$naranja: #B4690E;
+
+// * Tipografia
+$fuente-heading: 'Kaisei HarunoUmi', serif;
+$fuente-textos: Arial, Helvetica, sans-serif;
+
+
+
+// *Reescribir Colores
+
+$secondary: $naranja;
+$succes: $morado;
+$light: $gris;
+$dark: $negro;
+
+// *Reescribir Tipografia
+$headings-font-family: $fuente-heading;
+$headings-font-weight: 700;
+
+$h2-font-size: 3rem;
+$h3-font-size: 2.6rem;
+
+// *Formulario 
+$input-border-color: $dark;
+
+// *Importando Bootstrap 
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
