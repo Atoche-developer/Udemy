@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.descuento {
+
+  &__box {
+    z-index: 100;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: -3rem;
+    }
+  }
+
+  &__form {
+    border-radius: 0;
+  }
+}
