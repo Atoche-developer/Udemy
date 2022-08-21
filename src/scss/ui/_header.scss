@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+.header {
+  position: relative;
+  z-index: 100;
+
+  &__link {
+    color: #707070;
+
+    &:hover {
+      color: $success;
+    }
+  }
+}
