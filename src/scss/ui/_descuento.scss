@@ -1,8 +1,11 @@
 @use '../custom' as *;
 
 .descuento {
+  padding-top: 4rem;
+  font-size: 1.6rem;
 
   &__box {
+    padding: 2rem;
     z-index: 100;
 
     @include media-breakpoint-up(md) {
@@ -10,7 +13,16 @@
     }
   }
 
+  &__title {
+    font-size: 3.5rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 4rem;
+    }
+  }
+
   &__form {
+    font-size: 1.6rem;
     border-radius: 0;
   }
 }
