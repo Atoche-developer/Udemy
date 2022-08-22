@@ -1,0 +1,10 @@
+@use '../custom' as *;
+@forward './header';
+
+.business {
+  font-size: 1.6rem;
+
+  &__btn {
+    @extend .header__btn;
+  }
+}
