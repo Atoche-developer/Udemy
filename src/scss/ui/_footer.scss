@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+.footer {
+  font-size: 1.6rem;
+
+  &__des {
+    font-size: 3rem;
+    font-weight: bold;
+
+    @include media-breakpoint-up(md) {
+      font-size: 5rem;
+    }
+  }
+}
