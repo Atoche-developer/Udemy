@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.caracteristicas {
+  font-size: 1.6rem;
+
+  &__ico {
+    font-size: 3rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 5rem;
+    }
+  }
+}
