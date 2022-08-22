@@ -3,7 +3,6 @@
 
 ### Node ###
 
-build/
 src/img
 src/js
 package-lock.json
