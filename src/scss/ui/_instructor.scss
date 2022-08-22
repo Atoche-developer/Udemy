@@ -1,0 +1,10 @@
+@use '../custom' as *;
+@forward './header';
+
+.instructor {
+  font-size: 1.6rem;
+
+  &__btn {
+    @extend .header__btn;
+  }
+}
