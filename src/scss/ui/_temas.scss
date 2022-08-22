@@ -1,0 +1,27 @@
+@use '../custom' as *;
+@forward './header';
+
+.temas {
+  font-size: 1.6rem;
+
+  &__title {
+    font-family: $fuente-textos;
+    font-size: 2.5rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 2.8rem;
+    }
+  }
+
+  &__text {
+    font-size: 2rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 2.3rem;
+    }
+  }
+
+  &__btn {
+    @extend .header__btn;
+  }
+}
