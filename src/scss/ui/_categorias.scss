@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+.categorias {
+  font-size: 1.6rem;
+
+  &__title {
+    font-size: 2.5rem;
+    font-family: $fuente-textos;
+
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+    }
+  }
+}

@@ -43,6 +43,10 @@ $btn-padding-x: 1.5rem;
 $card-spacer-x: 0;
 $card-border-width: 0;
 $card-border-radius: 0;
+
+// *Grid 
+$enable-cssgrid: true;
+
 // *Importando Bootstrap 
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
